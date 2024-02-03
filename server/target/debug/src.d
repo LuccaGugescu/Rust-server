@@ -1,0 +1,1 @@
+C:\Users\lucca\RustroverProjects\Rust-server\server\target\debug\src.exe: C:\Users\lucca\RustroverProjects\Rust-server\server\src\bin\src\main.rs C:\Users\lucca\RustroverProjects\Rust-server\server\src\lib.rs
