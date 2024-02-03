@@ -28,8 +28,7 @@ fn handle_connection(mut stream: TcpStream) {
     let mut file = File::open(filename).unwrap();
     let mut contents = String::new();
     file.read_to_string(&mut contents).unwrap();
-    let response = format!("{}{}", status_line, contents)
-        ;
+    let response = format!("{}{}", status_line, contents);
     stream.write(response.as_bytes()).unwrap();
     stream.flush().unwrap();
 }
